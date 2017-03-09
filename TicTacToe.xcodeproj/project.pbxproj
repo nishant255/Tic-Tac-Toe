@@ -14,6 +14,7 @@
 		962321281E70DCF000C8564E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962321261E70DCF000C8564E /* LaunchScreen.storyboard */; };
 		962321331E70DCF000C8564E /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962321321E70DCF000C8564E /* TicTacToeTests.swift */; };
 		9623213E1E70DCF000C8564E /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623213D1E70DCF000C8564E /* TicTacToeUITests.swift */; };
+		962321541E71D58200C8564E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962321531E71D58200C8564E /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		962321391E70DCF000C8564E /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9623213D1E70DCF000C8564E /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		9623213F1E70DCF000C8564E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962321531E71D58200C8564E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9623211D1E70DCF000C8564E /* AppDelegate.swift */,
 				9623211F1E70DCF000C8564E /* ViewController.swift */,
 				962321211E70DCF000C8564E /* Main.storyboard */,
+				962321531E71D58200C8564E /* RoundedButton.swift */,
 				962321241E70DCF000C8564E /* Assets.xcassets */,
 				962321261E70DCF000C8564E /* LaunchScreen.storyboard */,
 				962321291E70DCF000C8564E /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				962321201E70DCF000C8564E /* ViewController.swift in Sources */,
+				962321541E71D58200C8564E /* RoundedButton.swift in Sources */,
 				9623211E1E70DCF000C8564E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +516,7 @@
 				962321441E70DCF000C8564E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		962321451E70DCF000C8564E /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				962321471E70DCF000C8564E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		962321481E70DCF000C8564E /* Build configuration list for PBXNativeTarget "TicTacToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				9623214A1E70DCF000C8564E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
