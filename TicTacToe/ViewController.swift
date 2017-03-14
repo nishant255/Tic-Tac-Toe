@@ -153,7 +153,6 @@ class ViewController: UIViewController {
             return
         }
     else if buttonPlayed.count == 9 {
-            print("Looser")
             winnerLabel.isHidden = false
             winnerLabel.text = "Better Luck Next Time"
             return
